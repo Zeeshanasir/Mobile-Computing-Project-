@@ -1,0 +1,64 @@
+name: macromasterai
+description: "A new Flutter project focused on modern design and integrations."
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Application version and build number
+version: 1.0.0+1
+
+# Dart SDK environment configuration
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+# Project dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Essential UI packages
+  cupertino_icons: ^1.0.2
+  flutter_swiper_view: ^1.1.8
+  fl_chart: ^0.66.1
+  dotted_line: ^3.2.2
+  syncfusion_flutter_calendar: ^24.1.47
+  line_awesome_flutter: ^2.0.0
+
+  # Firebase services
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  http: ^1.2.2
+  # Connectivity and social integrations
+  connectivity_plus: ^6.1.1
+  google_sign_in: ^6.2.2
+  flutter_facebook_auth: ^7.1.1
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+
+# Flutter-specific configurations
+flutter:
+  # Use Material Icons in the app
+  uses-material-design: true
+
+  # Add image assets for use in the project
+  assets:
+    - images/
+
+  # Add custom fonts for the application
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+
+# Notes:
+# 1. To ensure proper usage, run `flutter pub get` after modifying this file.
+# 2. Use `flutter pub outdated` to check for newer versions of dependencies.
+# 3. Ensure that the `images` and `fonts` directories exist in the root of your project.
+# 4. If you encounter version conflicts, consider dependency overrides.

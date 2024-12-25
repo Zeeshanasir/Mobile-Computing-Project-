@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+    <string name="app_name">macromaster auth</string>
+    <string name="facebook_app_id">1574993259954691</string>
+    <string name="fb_login_protocol_scheme">fb1574993259954691</string>
+    <string name="facebook_client_token">e03964287067a47be16ba8fbcaf2b29d</string>
+</resource>
